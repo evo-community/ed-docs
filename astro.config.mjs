@@ -41,7 +41,7 @@ export default defineConfig({
           items: [
             {
               label: "Быстрый старт",
-              slug: "guide/quick-start",
+              slug: "guide",
               translations: {
                 en: "Quick start",
               },
@@ -56,7 +56,7 @@ export default defineConfig({
           items: [
             {
               label: "Основные концепции",
-              slug: "deep-dive/main-concepts",
+              slug: "deep-dive",
               translations: {
                 en: "Main concepts",
               },
