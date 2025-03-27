@@ -32,15 +32,6 @@ export default defineConfig({
             en: "Getting started",
           },
           slug: "getting-started",
-          //          items: [
-          //            {
-          //              label: "О проекте",
-          //              slug: "getting-started",
-          //              translations: {
-          //                en: "About project",
-          //              },
-          //            },
-          //          ],
         },
         {
           label: "Руководство",
@@ -55,13 +46,6 @@ export default defineConfig({
                 en: "Quick start",
               },
             },
-            {
-              label: "Основные концепции",
-              slug: "guide/main-concepts",
-              translations: {
-                en: "Concepts",
-              },
-            },
           ],
         },
         {
@@ -69,7 +53,15 @@ export default defineConfig({
           translations: {
             en: "Deep dive",
           },
-          items: [],
+          items: [
+            {
+              label: "Основные концепции",
+              slug: "deep-dive/main-concepts",
+              translations: {
+                en: "Main concepts",
+              },
+            },
+          ],
         },
         {
           label: "Паттерны",
